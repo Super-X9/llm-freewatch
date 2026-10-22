@@ -1,0 +1,22 @@
+name: Daily free-model radar
+on:
+  schedule:
+    - cron: "17 1 * * *"   # daily, UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m llm_freewatch scan --markdown > docs/FREE_MODELS.md
+      - run: |
+          git config user.name "llm-freewatch bot"
+          git config user.email "actions@github.com"
+          git add docs/FREE_MODELS.md
+          git diff --cached --quiet || git commit -m "radar: daily free-model snapshot"
+          git push

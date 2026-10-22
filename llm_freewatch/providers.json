@@ -1,0 +1,72 @@
+[
+  {
+    "provider": "Groq",
+    "free_tier": "Hosted open models (gpt-oss-120b/20b, Qwen family, Whisper) via an OpenAI-compatible API",
+    "limits": "About 30 RPM, 1,000 requests/day, 200K tokens/day per model on gpt-oss; limits apply per organization, not per key",
+    "card_required": "No",
+    "catch": "Token-per-day ceiling usually binds before the request count does",
+    "live_catalog": false,
+    "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "Google Gemini API",
+    "free_tier": "Flash / Flash-Lite models and Gemma via Google AI Studio, rate-limited",
+    "limits": "Google no longer publishes fixed per-model free limits; check AI Studio for your account",
+    "card_required": "No",
+    "catch": "Free-tier content may be used to improve Google products (not in EEA/UK/CH)",
+    "live_catalog": false,
+    "source": "https://dev.to/aifree/9-free-llm-apis-compared-rate-limits-card-rules-and-the-catch-2026-3hhj",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "NVIDIA NIM",
+    "free_tier": "Free inference endpoints for selected preview models on build.nvidia.com",
+    "limits": "Reported around 40 RPM; no published SLA",
+    "card_required": "No",
+    "catch": "Requires a verified NVIDIA Developer Program account; published limits are thin",
+    "live_catalog": false,
+    "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "Mistral AI",
+    "free_tier": "Free plan with monthly API credit (previously listed as $10/month) plus Studio",
+    "limits": "Shared monthly allowance across Studio, API and Vibe; exact amount no longer stated on the pricing page as of 2026-10-07",
+    "card_required": "No",
+    "catch": "Free-mode prompts may be used for training unless you opt out",
+    "live_catalog": false,
+    "source": "https://agentdeals.dev/free-llm-apis",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "Cloudflare Workers AI",
+    "free_tier": "Hosted open models (Llama, gpt-oss) on Workers AI",
+    "limits": "10,000 Neurons/day shared across models",
+    "card_required": "No",
+    "catch": "Not OpenAI-style: uses its own /ai/run endpoint shape",
+    "live_catalog": false,
+    "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "Cohere",
+    "free_tier": "Trial key for Command / Aya models",
+    "limits": "20 RPM, about 1,000 calls/month",
+    "card_required": "No",
+    "catch": "Trial key is non-commercial use only",
+    "live_catalog": false,
+    "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
+    "verified": "2026-10-22"
+  },
+  {
+    "provider": "GitHub Models",
+    "free_tier": "RETIRED on 2026-07-30. There is no free tier anymore.",
+    "limits": "-",
+    "card_required": "-",
+    "catch": "Do not build anything new on it; older blog posts still recommend it",
+    "live_catalog": false,
+    "source": "https://agentdeals.dev/free-llm-apis",
+    "verified": "2026-10-22"
+  }
+]

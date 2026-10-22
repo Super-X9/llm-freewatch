@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-freewatch"
+version = "0.1.0"
+description = "Know which free LLM APIs still work today: live free-model radar, change diffs, fallback chains, and an MCP server for your coding agent."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["llm", "openrouter", "free-tier", "mcp", "ai-agents", "fallback", "model-router"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+]
+
+[project.scripts]
+llm-freewatch = "llm_freewatch.cli:main"
+
+[tool.setuptools]
+packages = ["llm_freewatch"]
+
+[tool.setuptools.package-data]
+llm_freewatch = ["providers.json"]

@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": "acme/big-1:free",
+      "name": "Acme Big 1 (free)",
+      "context_length": 262144,
+      "pricing": {"prompt": "0", "completion": "0"},
+      "architecture": {"input_modalities": ["text"], "output_modalities": ["text"]},
+      "supported_parameters": ["tools", "temperature"]
+    },
+    {
+      "id": "acme/small-2:free",
+      "name": "Acme Small 2 (free)",
+      "context_length": 32768,
+      "pricing": {"prompt": "0", "completion": "0"},
+      "architecture": {"input_modalities": ["text", "image"], "output_modalities": ["text"]},
+      "supported_parameters": ["temperature"]
+    },
+    {
+      "id": "acme/paid-3",
+      "name": "Acme Paid 3",
+      "context_length": 1048576,
+      "pricing": {"prompt": "0.000001", "completion": "0.000002"},
+      "architecture": {"input_modalities": ["text"], "output_modalities": ["text"]},
+      "supported_parameters": ["tools"]
+    },
+    {
+      "id": "acme/half-free:free",
+      "name": "Acme Half Free",
+      "context_length": 131072,
+      "pricing": {"prompt": "0", "completion": "0.000001"},
+      "architecture": {"input_modalities": ["text"], "output_modalities": ["text"]},
+      "supported_parameters": ["tools"]
+    }
+  ]
+}
