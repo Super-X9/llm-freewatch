@@ -1,8 +1,8 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-10-27 06:19 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-10-28 06:52 UTC by llm-freewatch (live OpenRouter catalog)._
 
-**20 free models** (prompt and completion price both $0).
+**19 free models** (prompt and completion price both $0).
 
 | Model | Context | Tool calling |
 |---|---:|:---:|
@@ -14,7 +14,6 @@ _Generated 2026-10-27 06:19 UTC by llm-freewatch (live OpenRouter catalog)._
 | `dots-studio/dots-3-note-preview:free` | 512,000 | yes |
 | `google/gemma-4-26b-a4b-it:free` | 262,144 | yes |
 | `google/gemma-4-31b-it:free` | 262,144 | yes |
-| `nvidia/nemotron-3-super-120b-a12b:free` | 262,144 | yes |
 | `poolside/laguna-s-2.1:free` | 262,144 | yes |
 | `poolside/laguna-xs-2.1:free` | 262,144 | yes |
 | `recursive/flint-v1.0:free` | 262,144 | yes |
