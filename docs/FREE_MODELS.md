@@ -1,11 +1,12 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-11-03 07:57 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-11-04 07:31 UTC by llm-freewatch (live OpenRouter catalog)._
 
-**17 free models** (prompt and completion price both $0).
+**18 free models** (prompt and completion price both $0).
 
 | Model | Context | Tool calling |
 |---|---:|:---:|
+| `stealth/crouton-alpha` | 1,048,576 | yes |
 | `thinkingmachines/inkling-small:free` | 1,048,576 | yes |
 | `thinkingmachines/inkling:free` | 1,048,576 | yes |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1,000,000 | yes |
