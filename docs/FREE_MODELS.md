@@ -1,6 +1,6 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-11-06 07:56 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-11-07 07:13 UTC by llm-freewatch (live OpenRouter catalog)._
 
 **16 free models** (prompt and completion price both $0).
 
@@ -13,6 +13,7 @@ _Generated 2026-11-06 07:56 UTC by llm-freewatch (live OpenRouter catalog)._
 | `dots-studio/dots-3-note-preview:free` | 512,000 | yes |
 | `google/gemma-4-26b-a4b-it:free` | 262,144 | yes |
 | `google/gemma-4-31b-it:free` | 262,144 | yes |
+| `liquid/lfm-3-1.7b:free` | 262,144 | yes |
 | `recursive/flint-v1.0:free` | 262,144 | yes |
 | `xingchen-agi/xing4.0-29b-a4b:free` | 262,144 | yes |
 | `cohere/north-mini-code:free` | 256,000 | yes |
@@ -21,5 +22,4 @@ _Generated 2026-11-06 07:56 UTC by llm-freewatch (live OpenRouter catalog)._
 | `liquid/lfm-2.5-2.6b:free` | 65,536 | yes |
 | `google/lyria-3-clip-preview` | 1,048,576 | no |
 | `google/lyria-3-pro-preview` | 1,048,576 | no |
-| `nvidia/nemotron-3.5-content-safety:free` | 128,000 | no |
 
