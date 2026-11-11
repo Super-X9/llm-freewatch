@@ -1,12 +1,13 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-11-10 08:27 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-11-11 07:46 UTC by llm-freewatch (live OpenRouter catalog)._
 
 **16 free models** (prompt and completion price both $0).
 
 | Model | Context | Tool calling |
 |---|---:|:---:|
 | `thinkingmachines/inkling-2-small:free` | 1,048,576 | yes |
+| `baidu/ernie-5.5-flash-preview:free` | 1,024,000 | yes |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1,000,000 | yes |
 | `nvidia/nemotron-3.5-lightning:free` | 1,000,000 | yes |
 | `nvidia/nemotron-3.5-super-vl:free` | 1,000,000 | yes |
@@ -15,7 +16,6 @@ _Generated 2026-11-10 08:27 UTC by llm-freewatch (live OpenRouter catalog)._
 | `google/gemma-4-31b-it:free` | 262,144 | yes |
 | `liquid/lfm-3-1.7b:free` | 262,144 | yes |
 | `recursive/flint-v1.0:free` | 262,144 | yes |
-| `xingchen-agi/xing4.0-29b-a4b:free` | 262,144 | yes |
 | `cohere/north-mini-code:free` | 256,000 | yes |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | yes |
 | `openrouter/free` | 200,000 | yes |
