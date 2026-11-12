@@ -1,6 +1,6 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-11-11 07:46 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-11-12 08:22 UTC by llm-freewatch (live OpenRouter catalog)._
 
 **16 free models** (prompt and completion price both $0).
 
