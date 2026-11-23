@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -65,7 +66,10 @@ def test_curated_providers_have_sources():
     assert len(rows) >= 5
     for r in rows:
         assert r["source"].startswith("https://")
-        assert r["verified"] == "2026-10-22"
+        # verified must be an ISO date; it moves on each monthly re-verification,
+        # so pin the format (not a fixed date) to keep the re-verify workflow green.
+        assert re.match(r"^\d{4}-\d{2}-\d{2}$", r["verified"])
+    assert len({r["verified"] for r in rows}) == 1, "all rows re-verified together"
 
 
 def test_cache_roundtrip():
