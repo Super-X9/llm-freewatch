@@ -7,7 +7,7 @@
     "catch": "Token-per-day ceiling usually binds before the request count does",
     "live_catalog": false,
     "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "Google Gemini API",
@@ -17,27 +17,27 @@
     "catch": "Free-tier content may be used to improve Google products (not in EEA/UK/CH)",
     "live_catalog": false,
     "source": "https://dev.to/aifree/9-free-llm-apis-compared-rate-limits-card-rules-and-the-catch-2026-3hhj",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "NVIDIA NIM",
     "free_tier": "Free inference endpoints for selected preview models on build.nvidia.com",
-    "limits": "Reported around 40 RPM; no published SLA",
+    "limits": "About 40 RPM, 10,000 RPD per model; no published SLA",
     "card_required": "No",
     "catch": "Requires a verified NVIDIA Developer Program account; published limits are thin",
     "live_catalog": false,
     "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "Mistral AI",
-    "free_tier": "Free plan with monthly API credit (previously listed as $10/month) plus Studio",
-    "limits": "Shared monthly allowance across Studio, API and Vibe; exact amount no longer stated on the pricing page as of 2026-10-07",
-    "card_required": "No",
-    "catch": "Free-mode prompts may be used for training unless you opt out",
+    "free_tier": "Free plan covers Studio and Vibe only; NO API access since about 2026-11-05 (previously $10/month API credit)",
+    "limits": "No API access on Free plan; API is pay-as-you-go with prepaid credits after billing activation",
+    "card_required": "Yes (billing activation required for API access)",
+    "catch": "API is for business customers only; free-mode prompts may be used for training unless you opt out",
     "live_catalog": false,
     "source": "https://agentdeals.dev/free-llm-apis",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "Cloudflare Workers AI",
@@ -47,7 +47,7 @@
     "catch": "Not OpenAI-style: uses its own /ai/run endpoint shape",
     "live_catalog": false,
     "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "Cohere",
@@ -57,7 +57,7 @@
     "catch": "Trial key is non-commercial use only",
     "live_catalog": false,
     "source": "https://dev.to/tariqnasser/free-llm-api-tiers-in-october-2026-whats-left-and-how-i-chain-them-227l",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   },
   {
     "provider": "GitHub Models",
@@ -67,6 +67,6 @@
     "catch": "Do not build anything new on it; older blog posts still recommend it",
     "live_catalog": false,
     "source": "https://agentdeals.dev/free-llm-apis",
-    "verified": "2026-10-22"
+    "verified": "2026-11-23"
   }
 ]
