@@ -1,12 +1,11 @@
 # Free models on OpenRouter right now
 
-_Generated 2026-11-27 09:42 UTC by llm-freewatch (live OpenRouter catalog)._
+_Generated 2026-11-28 08:55 UTC by llm-freewatch (live OpenRouter catalog)._
 
-**14 free models** (prompt and completion price both $0).
+**13 free models** (prompt and completion price both $0).
 
 | Model | Context | Tool calling |
 |---|---:|:---:|
-| `inclusionai/ling-3.2-flash:free` | 1,048,576 | yes |
 | `particle-ai/particle-1:free` | 1,048,576 | yes |
 | `baidu/ernie-5.5-flash-preview:free` | 1,024,000 | yes |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1,000,000 | yes |
